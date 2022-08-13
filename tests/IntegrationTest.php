@@ -3,8 +3,9 @@
 namespace Ramsey\Twig\CodeBlock\Test;
 
 use Ramsey\Twig\CodeBlock\CodeBlockExtension;
+use Twig\Test\IntegrationTestCase;
 
-class IntegrationTest extends \Twig_Test_IntegrationTestCase
+class IntegrationTest extends IntegrationTestCase
 {
     protected function setUp()
     {

@@ -19,15 +19,16 @@
         }
     ],
     "require": {
-        "php": "^5.6 || ^7.0",
-        "ramsey/pygments": "^1.0",
-        "twig/twig": "^1.15 || ^2.0"
+        "php": "^7.4 || ^8.0",
+        "ramsey/pygments": "^2",
+        "twig/twig": "^2.0"
     },
     "require-dev": {
-        "jakub-onderka/php-parallel-lint": "^0.9.2",
-        "mockery/mockery": "^0.9.9",
-        "phpunit/phpunit": "^5.7",
-        "squizlabs/php_codesniffer": "^2.8"
+        "mockery/mockery": "^0.9|^1",
+        "php-parallel-lint/php-parallel-lint": "*",
+        "phpunit/phpunit": "^7",
+        "rector/rector": "^0.13.0",
+        "squizlabs/php_codesniffer": "^3.0|^4.0"
     },
     "autoload": {
         "psr-4": {
