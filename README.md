@@ -1,5 +1,8 @@
 # Codeblock Extension for Twig
 
+
+composer config repositories.tacman_codeblock '{"type": "vcs", "url": "git@github.com:tacman/twig-codeblock.git"}'
+
 Add code snippets with syntax highlighting and more to any [Twig][] template.
 
 [![Source Code][badge-source]][source]
